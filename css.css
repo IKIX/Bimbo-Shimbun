@@ -1,20 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Meiryo, sans-serif;
+    background-color: #f0ece8;
+    color: #111115;
+    font-family: Courier, BIZ UDGothic, Meiryo, sans-serif;
 }
 
 header {
     height: auto;
-    background-color: saddlebrown;
-    color: white;
+    background-color: #ddcaaf;
+    color: #111115;
     text-indent: 2em;
     font-weight: 700;
     font-size: 21pt;
+    padding: 20px;
 }
 
 nav ul {
-    background-color: saddlebrown;
+    background-color: #ddcaaf;
 }
 
 nav ul li {
@@ -23,7 +26,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: cornflowerblue;
+    background-color: #3e4d9e;
 }
 
 nav ul li a {
@@ -36,19 +39,20 @@ section a {
 }
 
 section article {
-    display: block;
+    display: inline-block;
     width: 30%;
     float: left;
     padding: .5em;
-    background-color: white;
+    margin: 4px;
+    background-color: #eae1de;
 }
 
 section article:hover {
-    background-color: peachpuff;
+    background-color: #f2d74f;
 }
 
 details summary h2 {
-    background-color: crimson;
+    background-color: #a47d72;
     color: white;
     border-radius: .5em;
     font-size: 15pt;
@@ -57,11 +61,10 @@ details summary h2 {
 
 details p {
     text-decoration: none;
-    color: darkslategrey;
 }
 
 details p a {
-    background-color: crimson;
+    background-color: #a47d72;
     padding: .5em;
     color: white;
     font-weight: 700;
@@ -74,6 +77,8 @@ section.hidden {
 .hidden p {
     width: 66%;
     margin: 0 auto;
+    padding: .5em;
+    line-height: 2;
     text-indent: 1em;
 }
 
